@@ -1,4 +1,4 @@
-#No hassle jekyll
+#NoHassle jekyll
 A jekyll plugin that simplifies the process of publishing a post.
 
 #Basic usage
