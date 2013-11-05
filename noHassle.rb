@@ -10,12 +10,12 @@ module Jekyll
         n = f.dup
         n[0..@@folder.length] = ""
         n = n.slice(0..-4)
-        File.open("temp.md", 'w') { |file|
+        File.open("temp.md", 'w') do |file|
 
           file.write("---\nlayout: post\ntitle: #{n}\n---\n")
           file.write("##{n}\n")
           file.write(old_text)
-        }
+        end
 
         File.delete(f)
 
