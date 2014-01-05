@@ -1,7 +1,7 @@
-#NoHassle jekyll
+# NoHassle jekyll
 A jekyll plugin that simplifies the process of publishing a post.
 
-#Basic usage
+## Basic usage
 Instead of naming files with dates: 
 	
 	2013-09-02-Blog-post.md
@@ -16,7 +16,7 @@ Place all posts in the _nohassle directory or any other folder. This can be spec
 
 No hassle takes your file, adds the date in front, prints yaml in the header of the file and moves it to _posts. To save even more typing it also copies the file name and uses it as the title.
 
-##Before
+## Before
 	
 	_nohassle/Blog post.md
 
@@ -28,7 +28,7 @@ No hassle takes your file, adds the date in front, prints yaml in the header of 
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-##After
+## After
 	
 	_posts/2013-09-29-Blog-post.md
 
